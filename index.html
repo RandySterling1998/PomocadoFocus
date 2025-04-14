@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomocado Focus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- As a main container Background -->
+<div class="mainContainerBackground">
+    <!-- backbone container for the app -->
+    <div id="rootContainer">
+        <!-- As a heading -->
+        <nav class="navbar">
+            <div class="navbarTextContainer">
+                <img src="/sources/Pomocado.png" alt="Avocado Image" srcset="/sources/Pomocado.png" class="avocadoImage" style="width: 5rem;">
+                <span class="themeText"><b>Pomocado Focus</b></span>
+            </div>
+        </nav>
+
+        <!-- As a counter container -->
+        <div class="mainContainer">
+            <div class="countDownContainer">
+                <div class="selectionBtns">
+                    <button class="CountDownBtn" id="pomocado"><b>Pomocado</b></button>
+                    <button class="CountDownBtn" id="shortBreak"><b>Short Break</b></button>
+                    <button class="CountDownBtn" id="longBreak"><b>Long Break</b></button>
+                </div>
+                <span id="timer"></span>
+            </div>
+        <!-- As a settings container -->
+            <div class="buttonContainer">
+                <Button class="CountDownBtn" style="height: 3rem; width: 6rem;" id="startBtn"><b>Start</b></Button>
+                <button class="CountDownBtn" style="height: 3rem; width: 6rem;" id="resetBtn"><b>Reset</b></button>
+            </div>
+        </div>
+        <!-- As a progress bar -->
+        <div class="progressBarContainer">
+            <div class="progressBarText">
+                <span id="progressBarText"><b>Progress</b></span>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated progressBar" style="width: 0%; color: #633016; font-weight: bold;"></div>
+            </div>
+        </div>
+        <div id="motivationalQuoteContainer">
+            <!-- As a motivational quote container -->
+        </div>
+        <!-- SEO Container Elements-->
+        <div class="textContainerSEO">
+            <!-- As a heading -->
+            <h1 class="textSEO">Pomocado Focus</h1>
+            <!-- As a child container -->
+            <div class="childContainerSEO">
+                <h6 class="childContainerSEOtitle">
+                    What is Pomocado Focus?
+                </h6>
+                <hr style="border: 1px solid #2a3f0c; margin: 1rem 0;">
+                <p class="textSEO">
+                    Pomocado Focus is a productivity app that helps you stay focused and motivated while working. It uses the Pomodoro technique to break your work into intervals, with short breaks in between. The app also provides motivational quotes to keep you inspired.
+                </p>
+                <p class="textSEO">
+                    The Pomodoro technique is a time management method developed by Francesco Cirillo in the late 1980s. It uses a timer to break work into intervals, traditionally 25 minutes in length, separated by short breaks. The goal is to improve focus and productivity by creating a sense of urgency and encouraging regular breaks.
+                </p>
+            </div>
+
+            <div class="childContainerSEO">
+                <h6 class="childContainerSEOtitle">
+                    How it works?
+                </h6>
+                <hr style="border: 1px solid #2a3f0c; margin: 1rem 0;">
+                <p class="textSEO">Pomocado Focus is designed to be simple and easy to use. You can start a Pomodoro session with just one click, and the app will take care of the rest. It will track your progress, remind you when it's time to take a break, and provide you with motivational quotes to keep you inspired.</p>
+                <p class="textSEO">Whether you're a student, a professional, or anyone who wants to improve their productivity, Pomocado Focus is the perfect tool for you. Try it out today and see how it can help you stay focused and motivated while working!</p>
+                <p class="textSEO">Pomocado Focus is a productivity app that helps you stay focused and motivated while working. It uses the Pomodoro technique to break your work into intervals, with short breaks in between. The app also provides motivational quotes to keep you inspired.</p>
+            </div>
+        </div>
+</div>
+        <!-- As a settings container -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="/app.js" defer></script>
+</body>
+</html>
